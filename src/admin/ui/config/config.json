@@ -1,0 +1,8 @@
+{
+  "SAM_ADMIN_API_AZURE_CLIENTID": "1ceb3870-a843-454c-aa8a-c4c2841aec51",
+  "SAM_ADMIN_UI_AZURE_CLIENTID": "53613b37-51bb-408f-8e7d-74577b74b8c5",
+  "SAM_ENGINE_AZURE_CLIENTID": "5c82d15c-6fee-43cd-9329-715fd20641cb",
+  "SAM_ADMIN_API_ENDPOINT": "https://samd.ttx.com/admin/api",
+  "SAM_ENGINE_ENDPOINT": "https://samd.ttx.com/engine/auth",
+  "BASE_HREF": "/admin/ui"
+}

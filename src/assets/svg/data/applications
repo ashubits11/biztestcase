@@ -1,0 +1,1509 @@
+[
+ {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "BD",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Maintain the business rules & repair contracts used in the repair billing. Maintain the business rules & repair contracts used in the repair billing. Maintain the business rules & repair contracts used in the repair billing. Maintain the business rules & repair contracts used in the repair billing. Maintain the business rules & repair contracts used in the repair billing. Maintain the business rules & repair contracts used in the repair billing. Maintain the business rules & repair contracts used in the repair billing. Maintain the business rules & repair contracts used in the repair billing. Maintain the business rules & repair contracts used in the repair billing. Maintain the business rules & repair contracts used in the repair billing. Maintain the business rules & repair contracts used in the repair billing. Maintain the business rules & repair contracts used in the repair billing. Maintain the business rules & repair contracts used in the repair billing. Maintain the business rules & repair contracts used in the repair billing.",
+    "isActive": true,
+    "name": "bre app",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Certificate of Acceptance Application",
+    "isActive": true,
+    "name": "COA",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Allows a user to updated a large amount of data at one time. Allows a user to updated a large amount of data at one time Allows a user to updated a large amount of data at one time Allows a user to updated a large amount of data at one time Allows a user to updated a large amount of data at one timeAllows a user to updated a large amount of data at one timeAllows a user to updated a large amount of data at one time Allows a user to updated a large amount of data at one time Allows a user to updated a large amount of data at one time Allows a user to updated a large amount of data at one time Allows a user to updated a large amount of data at one time Allows a user to updated a large amount of data at one time Allows a user to updated a large amount of data at one time Allows a user to updated a large amount of data at one time ",
+    "isActive": true,
+    "name": "CRB",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "View/Update the Car Specification Library List",
+    "isActive": true,
+    "name": "eci",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Page in CRB Application that allows a user to add an invoice for processing",
+    "isActive": true,
+    "name": "invoice",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "ITBalanceScoreCard",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Allows for the management of tickets and IT request pipeline",
+    "isActive": true,
+    "name": "PipelineManagement",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "Party"
+    ],
+    "description": "100% Statement, Appendix H / Exchange Tape, Claims, Revenue Estimate, and Supplement 78.",
+    "isActive": true,
+    "name": "RevenueAccounting Online UI_SAM",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Track car movement, status in real time to make repair decisions throughout the repair process.",
+    "isActive": true,
+    "name": "shopcartracking",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "t-res",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Allows for the management of tickets and IT request pipeline",
+    "isActive": true,
+    "name": "pipelinemanagement",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "t-res",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "ubm",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Mobile UBS Windows 7 application for Handhelds",
+    "isActive": true,
+    "name": "ubs",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "wso",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "Party"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "xmaterials_sam",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "BD",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Maintain the business rules & repair contracts used in the repair billing.",
+    "isActive": true,
+    "name": "bre app",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Certificate of Acceptance Application",
+    "isActive": true,
+    "name": "COA",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Allows a user to updated a large amount of data at one time",
+    "isActive": true,
+    "name": "CRB",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "View/Update the Car Specification Library List",
+    "isActive": true,
+    "name": "eci",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Page in CRB Application that allows a user to add an invoice for processing",
+    "isActive": true,
+    "name": "invoice",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "ITBalanceScoreCard",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Allows for the management of tickets and IT request pipeline",
+    "isActive": true,
+    "name": "PipelineManagement",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "Party"
+    ],
+    "description": "100% Statement, Appendix H / Exchange Tape, Claims, Revenue Estimate, and Supplement 78.",
+    "isActive": true,
+    "name": "RevenueAccounting Online UI_SAM",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Track car movement, status in real time to make repair decisions throughout the repair process.",
+    "isActive": true,
+    "name": "shopcartracking",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "t-res",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Allows for the management of tickets and IT request pipeline",
+    "isActive": true,
+    "name": "pipelinemanagement",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "t-res",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "ubm",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Mobile UBS Windows 7 application for Handhelds",
+    "isActive": true,
+    "name": "ubs",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "wso",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "Party"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "xmaterials_sam",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "BD",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Maintain the business rules & repair contracts used in the repair billing.",
+    "isActive": true,
+    "name": "bre app",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Certificate of Acceptance Application",
+    "isActive": true,
+    "name": "COA",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Allows a user to updated a large amount of data at one time",
+    "isActive": true,
+    "name": "CRB",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "View/Update the Car Specification Library List",
+    "isActive": true,
+    "name": "eci",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Page in CRB Application that allows a user to add an invoice for processing",
+    "isActive": true,
+    "name": "invoice",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "ITBalanceScoreCard",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Allows for the management of tickets and IT request pipeline",
+    "isActive": true,
+    "name": "PipelineManagement",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "Party"
+    ],
+    "description": "100% Statement, Appendix H / Exchange Tape, Claims, Revenue Estimate, and Supplement 78.",
+    "isActive": true,
+    "name": "RevenueAccounting Online UI_SAM",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Track car movement, status in real time to make repair decisions throughout the repair process.",
+    "isActive": true,
+    "name": "shopcartracking",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "t-res",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Allows for the management of tickets and IT request pipeline",
+    "isActive": true,
+    "name": "pipelinemanagement",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "t-res",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "ubm",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Mobile UBS Windows 7 application for Handhelds",
+    "isActive": true,
+    "name": "ubs",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "wso",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "Party"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "xmaterials_sam",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "BD",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Maintain the business rules & repair contracts used in the repair billing.",
+    "isActive": true,
+    "name": "bre app",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Certificate of Acceptance Application",
+    "isActive": true,
+    "name": "COA",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Allows a user to updated a large amount of data at one time",
+    "isActive": true,
+    "name": "CRB",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "View/Update the Car Specification Library List",
+    "isActive": true,
+    "name": "eci",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Page in CRB Application that allows a user to add an invoice for processing",
+    "isActive": true,
+    "name": "invoice",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "ITBalanceScoreCard",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Allows for the management of tickets and IT request pipeline",
+    "isActive": true,
+    "name": "PipelineManagement",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "Party"
+    ],
+    "description": "100% Statement, Appendix H / Exchange Tape, Claims, Revenue Estimate, and Supplement 78.",
+    "isActive": true,
+    "name": "RevenueAccounting Online UI_SAM",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Track car movement, status in real time to make repair decisions throughout the repair process.",
+    "isActive": true,
+    "name": "shopcartracking",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "t-res",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Allows for the management of tickets and IT request pipeline",
+    "isActive": true,
+    "name": "pipelinemanagement",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "t-res",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "ubm",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Mobile UBS Windows 7 application for Handhelds",
+    "isActive": true,
+    "name": "ubs",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "wso",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "Party"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "xmaterials_sam",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "BD",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Maintain the business rules & repair contracts used in the repair billing.",
+    "isActive": true,
+    "name": "bre app",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Certificate of Acceptance Application",
+    "isActive": true,
+    "name": "COA",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Allows a user to updated a large amount of data at one time",
+    "isActive": true,
+    "name": "CRB",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "View/Update the Car Specification Library List",
+    "isActive": true,
+    "name": "eci",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Page in CRB Application that allows a user to add an invoice for processing",
+    "isActive": true,
+    "name": "invoice",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "ITBalanceScoreCard",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Allows for the management of tickets and IT request pipeline",
+    "isActive": true,
+    "name": "PipelineManagement",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "Party"
+    ],
+    "description": "100% Statement, Appendix H / Exchange Tape, Claims, Revenue Estimate, and Supplement 78.",
+    "isActive": true,
+    "name": "RevenueAccounting Online UI_SAM",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Track car movement, status in real time to make repair decisions throughout the repair process.",
+    "isActive": true,
+    "name": "shopcartracking",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "t-res",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Allows for the management of tickets and IT request pipeline",
+    "isActive": true,
+    "name": "pipelinemanagement",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "t-res",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "ubm",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Mobile UBS Windows 7 application for Handhelds",
+    "isActive": true,
+    "name": "ubs",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "wso",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "Party"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "xmaterials_sam",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "BD",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Maintain the business rules & repair contracts used in the repair billing.",
+    "isActive": true,
+    "name": "bre app",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Certificate of Acceptance Application",
+    "isActive": true,
+    "name": "COA",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Allows a user to updated a large amount of data at one time",
+    "isActive": true,
+    "name": "CRB",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "View/Update the Car Specification Library List",
+    "isActive": true,
+    "name": "eci",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Page in CRB Application that allows a user to add an invoice for processing",
+    "isActive": true,
+    "name": "invoice",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "ITBalanceScoreCard",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Allows for the management of tickets and IT request pipeline",
+    "isActive": true,
+    "name": "PipelineManagement",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "Party"
+    ],
+    "description": "100% Statement, Appendix H / Exchange Tape, Claims, Revenue Estimate, and Supplement 78.",
+    "isActive": true,
+    "name": "RevenueAccounting Online UI_SAM",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Track car movement, status in real time to make repair decisions throughout the repair process.",
+    "isActive": true,
+    "name": "shopcartracking",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "t-res",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Allows for the management of tickets and IT request pipeline",
+    "isActive": true,
+    "name": "pipelinemanagement",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "t-res",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "ubm",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Mobile UBS Windows 7 application for Handhelds",
+    "isActive": true,
+    "name": "ubs",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "wso",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "Party"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "xmaterials_sam",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "BD",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Maintain the business rules & repair contracts used in the repair billing.",
+    "isActive": true,
+    "name": "bre app",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Certificate of Acceptance Application",
+    "isActive": true,
+    "name": "COA",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Allows a user to updated a large amount of data at one time",
+    "isActive": true,
+    "name": "CRB",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "View/Update the Car Specification Library List",
+    "isActive": true,
+    "name": "eci",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Page in CRB Application that allows a user to add an invoice for processing",
+    "isActive": true,
+    "name": "invoice",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "ITBalanceScoreCard",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Allows for the management of tickets and IT request pipeline",
+    "isActive": true,
+    "name": "PipelineManagement",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "Party"
+    ],
+    "description": "100% Statement, Appendix H / Exchange Tape, Claims, Revenue Estimate, and Supplement 78.",
+    "isActive": true,
+    "name": "RevenueAccounting Online UI_SAM",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Track car movement, status in real time to make repair decisions throughout the repair process.",
+    "isActive": true,
+    "name": "shopcartracking",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "t-res",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Allows for the management of tickets and IT request pipeline",
+    "isActive": true,
+    "name": "pipelinemanagement",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "t-res",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "ubm",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Mobile UBS Windows 7 application for Handhelds",
+    "isActive": true,
+    "name": "ubs",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "wso",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "Party"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "xmaterials_sam",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "BD",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Maintain the business rules & repair contracts used in the repair billing.",
+    "isActive": true,
+    "name": "bre app",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Certificate of Acceptance Application",
+    "isActive": true,
+    "name": "COA",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Allows a user to updated a large amount of data at one time",
+    "isActive": true,
+    "name": "CRB",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "View/Update the Car Specification Library List",
+    "isActive": true,
+    "name": "eci",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Page in CRB Application that allows a user to add an invoice for processing",
+    "isActive": true,
+    "name": "invoice",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "ITBalanceScoreCard",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Allows for the management of tickets and IT request pipeline",
+    "isActive": true,
+    "name": "PipelineManagement",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "Party"
+    ],
+    "description": "100% Statement, Appendix H / Exchange Tape, Claims, Revenue Estimate, and Supplement 78.",
+    "isActive": true,
+    "name": "RevenueAccounting Online UI_SAM",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Track car movement, status in real time to make repair decisions throughout the repair process.",
+    "isActive": true,
+    "name": "shopcartracking",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "t-res",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Allows for the management of tickets and IT request pipeline",
+    "isActive": true,
+    "name": "pipelinemanagement",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "t-res",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "ubm",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Mobile UBS Windows 7 application for Handhelds",
+    "isActive": true,
+    "name": "ubs",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "wso",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "Party"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "xmaterials_sam",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "BD",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Maintain the business rules & repair contracts used in the repair billing.",
+    "isActive": true,
+    "name": "bre app",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Certificate of Acceptance Application",
+    "isActive": true,
+    "name": "COA",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Allows a user to updated a large amount of data at one time",
+    "isActive": true,
+    "name": "CRB",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "View/Update the Car Specification Library List",
+    "isActive": true,
+    "name": "eci",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Page in CRB Application that allows a user to add an invoice for processing",
+    "isActive": true,
+    "name": "invoice",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "ITBalanceScoreCard",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Allows for the management of tickets and IT request pipeline",
+    "isActive": true,
+    "name": "PipelineManagement",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "Party"
+    ],
+    "description": "100% Statement, Appendix H / Exchange Tape, Claims, Revenue Estimate, and Supplement 78.",
+    "isActive": true,
+    "name": "RevenueAccounting Online UI_SAM",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Track car movement, status in real time to make repair decisions throughout the repair process.",
+    "isActive": true,
+    "name": "shopcartracking",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "t-res",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Allows for the management of tickets and IT request pipeline",
+    "isActive": true,
+    "name": "pipelinemanagement",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "t-res",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "ubm",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Mobile UBS Windows 7 application for Handhelds",
+    "isActive": true,
+    "name": "ubs",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "wso",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "Party"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "xmaterials_sam",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "BD",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Maintain the business rules & repair contracts used in the repair billing.",
+    "isActive": true,
+    "name": "bre app",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Certificate of Acceptance Application",
+    "isActive": true,
+    "name": "COA",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Allows a user to updated a large amount of data at one time",
+    "isActive": true,
+    "name": "CRB",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "View/Update the Car Specification Library List",
+    "isActive": true,
+    "name": "eci",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Page in CRB Application that allows a user to add an invoice for processing",
+    "isActive": true,
+    "name": "invoice",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "ITBalanceScoreCard",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Allows for the management of tickets and IT request pipeline",
+    "isActive": true,
+    "name": "PipelineManagement",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "Party"
+    ],
+    "description": "100% Statement, Appendix H / Exchange Tape, Claims, Revenue Estimate, and Supplement 78.",
+    "isActive": true,
+    "name": "RevenueAccounting Online UI_SAM",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Track car movement, status in real time to make repair decisions throughout the repair process.",
+    "isActive": true,
+    "name": "shopcartracking",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "t-res",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Allows for the management of tickets and IT request pipeline",
+    "isActive": true,
+    "name": "pipelinemanagement",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "t-res",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "ubm",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Mobile UBS Windows 7 application for Handhelds",
+    "isActive": true,
+    "name": "ubs",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "wso",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "Party"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "xmaterials_sam",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "BD",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Maintain the business rules & repair contracts used in the repair billing.",
+    "isActive": true,
+    "name": "bre app",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Certificate of Acceptance Application",
+    "isActive": true,
+    "name": "COA",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Allows a user to updated a large amount of data at one time",
+    "isActive": true,
+    "name": "CRB",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "View/Update the Car Specification Library List",
+    "isActive": true,
+    "name": "eci",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Page in CRB Application that allows a user to add an invoice for processing",
+    "isActive": true,
+    "name": "invoice",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "ITBalanceScoreCard",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Allows for the management of tickets and IT request pipeline",
+    "isActive": true,
+    "name": "PipelineManagement",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "Party"
+    ],
+    "description": "100% Statement, Appendix H / Exchange Tape, Claims, Revenue Estimate, and Supplement 78.",
+    "isActive": true,
+    "name": "RevenueAccounting Online UI_SAM",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Track car movement, status in real time to make repair decisions throughout the repair process.",
+    "isActive": true,
+    "name": "shopcartracking",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "t-res",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "Allows for the management of tickets and IT request pipeline",
+    "isActive": true,
+    "name": "pipelinemanagement",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [],
+    "description": "",
+    "isActive": true,
+    "name": "t-res",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "ubm",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "Mobile UBS Windows 7 application for Handhelds",
+    "isActive": true,
+    "name": "ubs",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "facility"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "wso",
+    "version": "1.0"
+  },
+  {
+    "contextTypes": [
+      "Party"
+    ],
+    "description": "",
+    "isActive": true,
+    "name": "xmaterials_sam",
+    "version": "1.0"
+  }
+]

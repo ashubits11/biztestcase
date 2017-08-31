@@ -1,0 +1,27 @@
+<ng-container *ngIf="permission && permission.havePermissions && permission.viewUser">
+<app-notification-center></app-notification-center>
+<app-load-more *ngIf="loadMoreOptions"  [loadMoreOptions]="loadMoreOptions" (updateRowsSize)="updateRowsSize($event)"></app-load-more>
+<div class="col-sm-9 col-md-8 col-xs-12 paddingR0 xs-padding0 pull-right posRelative">
+        <div class="pull-right text-right xs-width100 userButtonsGroup">
+          <app-application-search *ngIf="applicationGroupUsers && applicationGroupUsers.length>=1" [options]="searchOptions" (onSearchUpdate)="onSearchUpdate($event)"></app-application-search>
+          <div class="pull-right">
+            <button type="button"  *ngIf="permission.addUser" class="btn btn-primary blue-btn marginL20 xs-posBottomFixed" (click)="openUserModal()"> <span class="icon-add-user"></span><span>Add User</span></button>
+            <button type="button"  *ngIf="permission.deleteUser" [disabled]="selectedUsers.length<=0" class="btn btn-primary blue-btn  marginL10 xs-hide" (click)="confirmRemove()"><span>Remove User</span></button>
+            <button type="button"  *ngIf="permission.deleteUser" class="btn btn-primary blue-btn disabled marginL10 mobileDeleteBtn lg-hide" [disabled]="selectedUsers.length<=0" (click)="confirmRemove()"><span class="icon-delete"></span></button>
+          </div>
+        </div>
+      </div>
+<div class="gp-wrap">
+  <div class="row gp-row">
+    <ng-container *ngFor="let users of applicationGroupUsers|applicationsFilter:searchText:'name'|slice:0:size;">
+         <app-no-result-found *ngIf="users === -1"  [noResultFound]="noResultFound"></app-no-result-found>
+          <div *ngIf="users !== -1">
+               <app-application-user-detail-container [permission]="permission" [applicationGroupUser]="users" [pageDetail]="pageDetail" (onUserSelect)="onUserSelect($event)" (removeMe)="removeMe($event)"></app-application-user-detail-container>
+          </div>
+      </ng-container>
+  </div>
+  <app-no-result-found *ngIf="applicationGroupUsers && applicationGroupUsers.length<=0"  [noResultFound]="{label:'No User Added Or Assigned',subLabel:''}"></app-no-result-found>
+</div>
+<app-add-user-modal [userModal]="userModal" (onUpdate) = "userModalUpdate($event)" *ngIf="addUser" ></app-add-user-modal>
+<app-confirm-modal (onUpdate) = "removeModalUpdate($event)" [confirmModal]= "confirmModal" *ngIf="removeUser"></app-confirm-modal>
+</ng-container>

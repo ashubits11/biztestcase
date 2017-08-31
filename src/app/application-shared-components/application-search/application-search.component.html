@@ -1,0 +1,12 @@
+<!-- Search bar -->
+<div class="input-group searchGrp pull-right">
+  <input type="text" class="form-control" placeholder={{options.placeholder}}
+  [(ngModel)]="searchText" (ngModelChange)="searchChange($event)">
+  <span class="input-group-btn">
+    <button class="btn btn-default" type="button">
+      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+      <span class="icon-cross searchCross"></span>
+      </button>
+  </span>
+</div>
+<!-- End of Search bar -->

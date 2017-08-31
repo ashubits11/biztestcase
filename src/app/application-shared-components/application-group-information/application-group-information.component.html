@@ -1,0 +1,28 @@
+<ng-container *ngIf="permission">
+<div class="detail-head marginT62 marginB15 {{headerColor}}">
+  <div class="container-fluid detail-bg">
+    <h1 class="bg-txt">{{this.firtCharacter}}</h1>
+    <div class="backIcon" (click)="goBack()"><span class="icon-back-arrow"></span></div>
+    <div *ngIf="applicationGroup" class="headerRightContent">
+      <h3> {{applicationGroup.name}} <span class="appName" *ngIf="applicationDetail">[{{applicationDetail?.display}}]</span></h3>
+      <p class="paraEllipse singleLine" *ngIf="!edit">
+        <tooltip-content #myTooltip>
+          <app-tooltip-description [value]="applicationGroup.description"></app-tooltip-description>
+        </tooltip-content>
+        <span appShowTooltip>{{applicationGroup.description}}
+        </span>
+      </p>
+      <a href="javascript:void(0)" *ngIf="permission.updateUserGroup && !edit" (click)="enableEdit()" class="bannerEdit"><span class="icon-edit"></span></a>
+      <div *ngIf="edit" class="actionButtons">
+          <span class="updateIcon icon-cross" (click)="updateApplicationGroup(false)"></span>
+          <span class="cancelIcon icon-check" (click)="updateApplicationGroup(true)"></span>
+      </div> 
+      <div class="editableInput"><input #focusOnInput *ngIf="edit" type="text" [(ngModel)]="applicationGroup.description">
+      </div>
+      <div class="bannerLinks">
+       <span *ngFor="let key of applicationGroup|applicationGroupContextKey">{{key}}</span>
+       </div>
+    </div>
+  </div>
+</div>
+</ng-container>

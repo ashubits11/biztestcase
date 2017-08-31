@@ -1,0 +1,12 @@
+.searchGrp { width: 270px; position: relative; top:0; float: left; }
+.searchGrp .form-control { border-radius: 0; border: 0; background-color: transparent; border-bottom: 2px solid #d1d3d5; display: inline-block; transition: all 0.5s linear 0s;
+  vertical-align: middle; box-shadow: none; padding:4px 25px 3px 2px; font-family: arial; font-size: 14px; color: #333333; font-style: normal; line-height: normal; }
+.searchGrp .form-control::-webkit-input-placeholder { color: #c0c1bf; }
+.searchGrp .form-control::-moz-placeholder { color: #c0c1bf; }
+.searchGrp .form-control:-ms-input-placeholder { color: #c0c1bf; }
+.searchGrp .form-control:-moz-placeholder { color: #c0c1bf; }
+.searchGrp .form-control:hover { border-color: #5d7f91; }
+.searchGrp .form-control:active, .searchGrp .form-control:focus {border-bottom: 2px solid #0070a9; transition: all 0.5s linear 0s; box-shadow: 0 1px 0px #5d7f91; }
+.searchGrp .input-group-btn { position: absolute; right: 0; width: 18px; z-index: 2; }
+.searchGrp .input-group-btn .btn { padding: 6px 0; line-height: normal; border-radius: 0; border:0; background-color: transparent; color: #c0c1bf; font-size: 16px; cursor: pointer; float: left; width: 100%;}
+.searchGrp .input-group-btn button.btn:hover span { transition: all 0.5s linear 0s; color: #0070a9; }

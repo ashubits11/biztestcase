@@ -1,0 +1,20 @@
+<div class="detail-head marginT62 marginB15 {{headerColor}}"  *ngIf="permission">
+  <div class="container-fluid detail-bg">
+    <h1 class="bg-txt">{{firtCharacter}}</h1>
+    <div class="backIcon" (click)="goBack()"><span class="icon-back-arrow"></span></div>
+    <div *ngIf="application"  class="headerRightContent">
+      <h3> {{application.display}} <span></span></h3>
+      <p appShowTooltip (willShowToolTip)="disableSeeMore = $event" class="autoScrollBannerTxt" [ngClass]= "expandHeader?'expandHeader':''" *ngIf="!edit">{{application.description}}<a  *ngIf="expandHeader" (click)= "expandHeader = !expandHeader" >See Less</a></p>
+      <button  class="expandCollapseBtn {{headerColor}}"  *ngIf="!expandHeader && !disableSeeMore.status && !edit" (click)="expandHeader=!expandHeader">{{expandHeader?'See Less':'... See More'}} </button>
+      <a href="javascript:void(0)" *ngIf="!edit && permission.updateApp" (click)="enableEdit()" class="bannerEdit"><span class="icon-edit"></span></a>
+      <div *ngIf="edit" class="actionButtons">
+          <span class="updateIcon icon-cross" (click)="updateApplication(false)"></span>
+          <span class="cancelIcon icon-check" (click)="updateApplication(true)"></span>
+        </div>
+      <div class="editableInput2">
+        <textarea #focusOnInput *ngIf="edit" [(ngModel)]="application.description"></textarea>
+      </div>
+      
+    </div>
+  </div>
+</div>

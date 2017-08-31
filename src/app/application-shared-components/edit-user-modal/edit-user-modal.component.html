@@ -1,0 +1,37 @@
+<modal #modal class="userModal minHeightAuto" (onDismiss)="dismissModal($event)">
+  <modal-header>
+    <button type="button" class="close" (click)="modal.dismiss()"><span aria-hidden="true" class="icon-cross"></span></button>
+    <h4 class="modal-title" id="exampleModalLabel">Edit User</h4>
+  </modal-header>
+  <modal-body>
+    <form [formGroup]="form" (ngSubmit)="onCloseForm(true,form.value)">
+      <div class="user-autoSearch">
+        <div class="datepanel">
+          <span class="pull-left darkTxt">Specify Access Dates</span>
+        </div>
+
+        <!-- Date Range -->
+        <div class="row dateRange-row">
+          <div class="col-xs-6 col-lg-6">
+            <span class="form-group dateRange-col date-selected">
+						<app-ng2-datepicker name="startDate" [options]="startDateOptions" [formControl]="form.controls['startDate']"></app-ng2-datepicker>
+					</span>
+          </div>
+          <div class="col-xs-6 col-lg-6">
+            <span class="form-group dateRange-col">
+					<app-ng2-datepicker  name="endDate"  [options]="endDateOptions" [formControl]="form.controls['endDate']"></app-ng2-datepicker>
+					</span>
+          </div>
+        </div>
+        <!-- End of Date Range -->
+        <div class="datepanel" *ngIf="errorMessage">
+          <span class="pull-left darkTxt" *ngFor="let message of errorMessage" style = "color: red;">{{message}}</span>
+        </div>
+      </div>
+    </form>
+  </modal-body>
+  <modal-footer>
+    <button type="button" class="btn btn-default white-btn"  (click)="modal.dismiss()">Cancel</button>
+    <button type="button" [disabled]="!form.valid" (click)="onCloseForm(true,form.value)" class="btn btn-primary blue-btn marginL10">Update User</button>
+  </modal-footer>
+</modal>

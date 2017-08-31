@@ -1,0 +1,7 @@
+.row.noResultWrap { float: left; width: 100%; padding: 60px 0; margin:45px 0; background-color: #fff; }
+.noResultIcon { margin-bottom: 15px; display: block; margin: 0 auto 20px auto; }
+.noResultWrap h3 { color: #666; font-size: 18px; margin: 0 0 7px 0; line-height: normal; }
+.noResultWrap p { color: #666; font-size: 14px; line-height: normal; padding-bottom: 10px; }
+
+.noResultWrap a { background:#5C7F92; font-size:13px; color:#fff; border-radius:20px; padding:6px 16px; display:inline-block; -webkit-transition:all 0.5s linear; -moz-transition:all 0.5s linear; -o-transition:all 0.5s linear; transition:all 0.5s linear; -ms-transition:all 0.5s linear; }
+.noResultWrap a:hover { background-color:#204d74;}

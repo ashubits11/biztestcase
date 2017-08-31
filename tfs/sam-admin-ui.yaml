@@ -1,0 +1,46 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: %INTERNAL_NAME%
+spec:
+  replicas: %REPLICAS%
+  strategy:
+      type: RollingUpdate
+      rollingUpdate:
+        maxSurge: 1
+        maxUnavailable: 1
+  template:
+    metadata:
+      labels:
+        app: %INTERNAL_NAME%
+    spec:
+      containers:
+      - name: samadminui
+        image: %IMAGE_REPO%/sam-admin-ui:%BUILD_BUILDNUMBER%
+        ports:
+        - containerPort: 80
+        imagePullPolicy: Always
+        volumeMounts:
+        - name: sam-admin-ui-volume
+          mountPath: /usr/share/nginx/html/config/
+      volumes:
+      - name: sam-admin-ui-volume
+        configMap:
+          name: sam-admin-ui-configmap-%BUILD_BUILDNUMBER%
+      imagePullSecrets:
+        - name: %IMAGE_SECRET%
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    name: %INTERNAL_NAME%-service
+  name: %INTERNAL_NAME%-service
+spec:
+  ports:
+    # The port that this service should serve on.
+    - port: 4000
+      targetPort: 80
+  # Label keys and values that must match in order to receive traffic for this service.
+  selector:
+    app: %INTERNAL_NAME%

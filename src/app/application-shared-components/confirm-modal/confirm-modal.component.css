@@ -1,0 +1,31 @@
+.selectedUsersGroups { float:left; width:100%; margin:10px 0; height:120px; overflow-y:auto; }
+.selectedUsrGrpRow { float:left; width:100%; display:table; border-bottom:1px solid #e5e5e5; }
+.selectedUsrGrpTd { display:table-cell; vertical-align:top; padding:10px 2px; font-size:13px; }
+.selectedUsrGrpRow .selectedUsrGrpTd.userTitlePop { width:90px; border-right:1px solid #e5e5e5;}
+.selectedUsrGrpRow .selectedUsrGrpTd.userTitlePop span { width:90px; float:left; }
+.groupTitlePop { position:relative; width:250px; }
+.groupTitlePop span.groupPopList { float:left; width:100%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.groupTitlePop span a { position:absolute; right:0; background-color:#fff; padding:0 2px; }
+.groupTitlePop span.groupPopList.moreGroupsAdded { white-space:normal; }
+
+
+.selectedUsersWrap { background-color:#eff2f4; box-sizing:border-box; margin:10px 0; padding:10px; width:100%; float:left; }
+.selectedUsersWrap h6 { color:#333; font-size:12px; font-weight:bold; margin:0 0 8px; }
+.modal .selectedUsersNames ul { margin:0; max-height:60px; overflow-y:auto; }
+.modal .selectedUsersNames ul li { background-color:#5c7f92; border:0 !important; text-transform:capitalize; border-radius:50px; color:#fff; display:inline-block !important; margin:0 4px 4px 0; line-height:normal; padding:5px 10px !important; }
+.modal .selectedUsersNames ul li a { color:#fff; font-size:9px; margin-left:2px; }
+/*  End of Selected Users  */
+.modal .selectedGroups { width:100%; padding:10px; border-bottom:1px solid #E1E3E4; margin-bottom:5px; float:left; margin-top:10px; background-color:#eff2f4; }
+.modal .selectedGroups h6 { margin-top:0; color:#333; font-size:12px; font-weight:bold; }
+.modal .selectedGroups ul { margin:0; height:40px; overflow-y:auto; }
+.modal .selectedGroups ul li { color:#333; border:0 !important; display:inline-block !important; line-height:normal; padding:2px 1px !important; }
+.modal .selectedGroups ul li a { color:#333; }
+.modal .selectedGroups ul li a:hover { color:#5c7f92; }
+/*  End of Selected Groups  */
+
+/*  Date Section  */
+.dateRangeWrap { background-color:#eff2f4; box-sizing:border-box; margin:5px 0 15px 0; padding:10px; width:100%; float:left; }
+.dateRange-row { float:left; width:100%; }
+.datepanel { float:left; width:100%; font-size:12px; margin:0; font-weight:bold; margin-bottom:5px; }
+.startDate label, .endDate label { width:100%; float:left; font-size:12px; margin:0; font-weight:normal; }
+/*  Date Section  */

@@ -1,0 +1,24 @@
+{
+    "allFacility":[
+      {"value":"All Facility","key":"default"},
+      {"value":"ATWS","key":"ATWS"},
+      {"value":"ATWS1","key":"ATWS1"},
+      {"value":"FDWS","key":"FDWS"},
+      {"value":"FDWS1","key":"FDWS1"},
+      {"value":"TTWS1","key":"TTWS1"}
+    ],
+    "allClient":[
+      {"value":"All Clients","key":"default"},
+      {"value":"Client","key":"Client"},
+      {"value":"Client1","key":"Client1"},
+      {"value":"Client2","key":"Client2"},
+      {"value":"Client3","key":"Client3"}
+    ],
+    "allParties":[
+      {"value":"All Parties","key":"default"},
+      {"value":"Party","key":"Party"},
+      {"value":"Party1","key":"Party1"},
+      {"value":"Party2","key":"Party2"},
+      {"value":"Party3","key":"Party3"}
+    ]
+  }

@@ -1,0 +1,24 @@
+<!-- Application Container -->
+<app-load-more *ngIf="loadMoreOptions" [loadMoreOptions]="loadMoreOptions" (updateRowsSize)="updateRowsSize($event)"></app-load-more>
+<div class="app-container paddingTop90">
+  <div class="container-fluid" >
+    <div class="gp-wrap">
+      <div class="app-row appHeadRow">
+        <div class="col-sm-8 paddingL0">
+          <h3 class="app-heading">APPLICATIONS</h3>
+        </div>
+        <div class="col-sm-4 paddingR0 padding-xs-L0">
+          <app-application-search *ngIf="applications && applications.length >=1" [options]="searchOptions" (onSearchUpdate)="onSearchUpdate($event)"></app-application-search>
+        </div>
+      </div>
+    </div>
+    <ng-container *ngFor="let application of applications|applicationsFilter:searchText:'display'|slice:0:size; let index = index; let last=last;">
+          <app-no-result-found *ngIf="application === -1"  [noResultFound]="noResultFound"></app-no-result-found>
+          <div *ngIf="application !== -1">
+              <app-application-container [application]="application" [applicationIndex]="index" ></app-application-container>
+          </div>
+    </ng-container>
+        <app-no-result-found *ngIf="!applications && applications.length<=0"  [noResultFound]="{label:'No Activites Found',subLabel:''}"></app-no-result-found>
+    </div>
+  </div>
+<!-- End of Application Container -->

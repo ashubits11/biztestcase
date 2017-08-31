@@ -1,0 +1,31 @@
+ <ng-container *ngIf="permission">
+ <div class="col-sm-6 col-md-4 col-lg-3 gp-tile usersOfGroup" [ngClass]="{'userNotActive': !applicationGroupUser.isValid}">
+   <div class="gp-tileInner" (click)="onSelected()">
+      <div class="gp-icons" [ngClass]="applicationGroupUser.selected?'selected-user':''"> 
+        <a href="javascript:void(0);" class="gp-user"><span class="icon-group"></span>
+          <div class="selected-icon"><span class="icon-check"></span></div>
+        </a>
+      </div>
+      <div class="gp-detail">
+        <h5>{{applicationGroupUser.name}}</h5>
+        <p>{{applicationGroupUser.id}}</p>
+        <ul class="gp-date">
+          <li><span>From:</span><span class="gpIn-date">{{applicationGroupUser.from}}</span></li>
+          <li><span>To:</span><span class="gpIn-date">{{applicationGroupUser.to}}</span></li>
+        </ul>
+      </div>
+   </div>
+    <!-- End of gp-TileInner -->
+
+    <div class="moreDots" *ngIf="permission.addUser || permission.deleteUser">
+      <a href="javascript:void(0);" class="dropdown-toggle" id="userOptDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"><span class="icon-more-action"></span></a>
+        <ul class="dropdown-menu userOptDropdown" aria-labelledby="userOptDropdown"> 
+          <li><a *ngIf="permission.addUser" (click)= "editUser=!editUser" href="javascript:void(0);" data-toggle="modal" data-target="#editDateRange" aria-haspopup="true" aria-expanded="false"><span class="icon-calendar" ></span>Edit Date Range</a></li>
+          <li><a *ngIf="permission.deleteUser"(click)= "confirmRemove()" href="javascript:void(0);" data-toggle="modal" data-target="#removePopUp" aria-haspopup="true" aria-expanded="false"><span class="icon-delete"></span>Remove</a></li>
+        </ul>
+    </div>
+
+ </div>
+ <app-edit-user-modal [applicationGroupUser]="applicationGroupUser" (onUpdate) = "editUserModalUpdate($event)" *ngIf="editUser" ></app-edit-user-modal>
+ <app-confirm-modal [confirmModal]="confirmModal" (onUpdate) = "removeModalUpdate($event)" *ngIf="removeUser"></app-confirm-modal>
+ </ng-container>

@@ -1,0 +1,2162 @@
+[
+    {
+      "context":{
+        "allFacility":"ATWS",
+        "allClient":"Client1",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS",
+        "allClient":"Client1",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS",
+        "allClient":"Client1",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS",
+        "allClient":"Client1",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation1",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation2",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation3",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation4",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation5",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS",
+        "allClient":"Client1",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS",
+        "allClient":"Client1",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS",
+        "allClient":"Client1",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS",
+        "allClient":"Client1",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation1",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation2",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation3",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation4",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation5",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS",
+        "allClient":"Client1",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS",
+        "allClient":"Client1",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS",
+        "allClient":"Client1",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS",
+        "allClient":"Client1",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation1",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation2",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation3",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation4",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation5",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS",
+        "allClient":"Client1",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS",
+        "allClient":"Client1",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS",
+        "allClient":"Client1",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS",
+        "allClient":"Client1",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation1",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation2",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation3",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation4",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation5",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS",
+        "allClient":"Client1",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS",
+        "allClient":"Client1",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS",
+        "allClient":"Client1",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS",
+        "allClient":"Client1",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation1",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation2",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation3",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation4",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation5",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS",
+        "allClient":"Client1",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS",
+        "allClient":"Client1",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS",
+        "allClient":"Client1",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS",
+        "allClient":"Client1",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation1",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation2",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation3",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation4",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation5",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS",
+        "allClient":"Client1",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS",
+        "allClient":"Client1",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS",
+        "allClient":"Client1",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS",
+        "allClient":"Client1",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation1",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation2",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation3",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation4",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation5",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS",
+        "allClient":"Client1",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS",
+        "allClient":"Client1",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS",
+        "allClient":"Client1",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS",
+        "allClient":"Client1",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation1",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation2",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation3",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation4",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation5",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS",
+        "allClient":"Client1",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS",
+        "allClient":"Client1",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS",
+        "allClient":"Client1",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS",
+        "allClient":"Client1",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation1",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing1",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation2",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing2",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation3",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing3",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation4",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing4",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"ATWS1",
+        "allClient":"Client3",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"TTWS1",
+        "allClient":"Client3",
+        "allParties":"Party2"
+      },
+      "userGroup": "Operation5",
+     "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"SSWS1",
+        "allClient":"Client3",
+        "allParties":"Party3"
+      },
+      "userGroup": "Audit5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    },
+    {
+      "context":{
+        "allFacility":"FDWS1",
+        "allClient":"Client3",
+        "allParties":"Party4"
+      },
+      "userGroup": "Billing5",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    }
+  ]

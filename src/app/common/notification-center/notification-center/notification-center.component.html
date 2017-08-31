@@ -1,0 +1,22 @@
+<!--<div class="notification-center-alerts container">
+    <div *ngFor="let notification of notifications">
+        <div class="alert alert-{{ notification.type }} alert-dismissible fade in" role="alert">
+            <button [hidden]="!notification.dismissible" type="button" class="close" data-dismiss="alert" aria-label="Close"
+                (click)="removeNotification(notification)"><span aria-hidden="true">×</span></button>
+            {{ notification.message }}
+        </div>
+    </div>
+</div>-->
+
+<!-- user Added Popup Message -->
+<div *ngFor="let notification of notifications">
+<div class="userAdded">
+	<p>
+    <span class="roundedBorder">
+    <span class="icon-check"></span>
+    </span> {{ notification.message }}
+    <a href="javascript:void(0)" (click)="removeNotification(notification)">
+    <span class="icon-cross" ></span></a></p>
+</div>
+</div>
+<!-- user Added Popup Message -->

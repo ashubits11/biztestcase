@@ -1,0 +1,57 @@
+<modal class="userModal minHeightAuto confirmationPopup" #modal (onDismiss)="dismissModal(false)" (onClose)="dismissModal(true)" >
+    <modal-header>
+        <button type="button" class="close" (click)="modal.dismiss()"><span aria-hidden="true" class="icon-cross"></span></button>
+        <h4 class="modal-title">{{confirmModal.title}}</h4>
+    </modal-header>
+    <modal-body>
+      {{confirmModal.label}}
+
+        <!-- Selected Groups -->  
+         <div class="selectedGroups" *ngIf="confirmModal.groups">
+          <h6 class="darkTxt">Group Names</h6>
+          <ul>
+            <li *ngFor="let group of confirmModal.groups let last = last">{{group}}{{last?'':','}}</li>
+          </ul>
+        </div>
+        <!-- End of Selected Groups -->
+
+        <!-- Selected Users -->
+      <div class="selectedUsersWrap" *ngIf="confirmModal.users">
+        <h6>Selected Users</h6>
+        <div class="selectedUsersNames">
+          <ul >
+            <li *ngFor="let user of confirmModal.users">{{user}}</li>
+          </ul>
+        </div>
+      </div>
+      <!-- End of Selected Users -->
+
+      <div class="dateRangeWrap" *ngIf="confirmModal.dateRange">
+      <div class="datepanel">
+          <span class="pull-left darkTxt">Date Range</span>
+      </div>
+
+      <!-- Date Range -->
+        <div class="row dateRange-row">
+          <div class="col-xs-6 col-lg-6 startDate">
+            <label>Start Date</label>
+            <span class="form-group dateRange-col date-selected">
+						{{confirmModal.dateRange.start}}
+					</span>
+          </div>
+          <div class="col-xs-6 col-lg-6 endDate">
+            <label>End Date</label>
+            <span class="form-group dateRange-col">
+					{{confirmModal.dateRange.end}}
+					</span>
+          </div>
+        </div>
+        <!-- End of Date Range -->
+        </div>
+
+    </modal-body>
+    <modal-footer>
+        <button type="button" class="btn btn-default white-btn"  (click)="modal.dismiss()">Cancel</button>
+        <button type="button" (click)="modal.close()" class="btn btn-primary blue-btn marginL10">{{confirmModal.buttonName}}</button>
+    </modal-footer>
+</modal>

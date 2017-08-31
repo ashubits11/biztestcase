@@ -1,0 +1,7 @@
+{
+  "contextTypes": [],
+  "description": "View/Update the Car Specification Library List",
+  "isActive": true,
+  "name": "eci",
+  "version": "1.0"
+}

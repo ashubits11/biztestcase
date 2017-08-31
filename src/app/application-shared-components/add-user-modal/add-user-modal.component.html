@@ -1,0 +1,106 @@
+<modal class="userModal"  #modal (onDismiss)="dismissModal($event)">
+  <modal-header>
+    <button type="button" class="close" (click)="modal.dismiss()"><span aria-hidden="true" class="icon-cross"></span></button>
+    <h4 class="modal-title" id="exampleModalLabel">Add User</h4>
+  </modal-header>
+  <modal-body>
+    <form [formGroup]="form" (ngSubmit)="onCloseForm(true,form.value)">
+      <div class="user-autoSearch">
+
+          <!-- Selected Users -->
+        <div class="confirmSelectedUser" *ngIf="selectedUsers && selectedUsers.length>=1">Are you sure you want to grant access to the following users.</div>
+        <div class="selectedUsersWrap" *ngIf=" selectedUsers && selectedUsers.length>=1">
+          <h6>Selected Users</h6>
+          <div class="selectedUsersNames">
+            <ul>
+              <li *ngFor="let user of selectedUsers;">{{user.lastName}} {{user.firstName}}
+                <a href="javascript:void(0)" (click)="deleteUser(user)">
+                       <span class="icon-cross"></span></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- End of Selected Users -->
+
+         <!-- User Dropdown List Section -->
+        <div class="userListSection">
+        <div class="searchBlockWrap">
+          <div class="autoSearch-input">
+            <app-application-search [searchSubject]="searchSubject" [options]="searchOptions" (onSearchUpdate)="onSearchUpdate($event)"></app-application-search>
+          </div>
+          <!-- Group Tiles -->
+          <div class="absoluteScrollDiv" *ngIf="searchText">
+            <ul class="scrollHeight155">
+              <loaders-css *ngIf="searchLoader" [loader]="'line-scale-pulse-out-rapid'" [loaderClass]="'my-loader'"></loaders-css>
+              <app-no-result-found *ngIf="!searchLoader && users && users.length<=0" [noResultFound]="noResultFound"></app-no-result-found>
+              <li *ngFor="let user of users">
+                <app-no-result-found *ngIf="user === -1" [noResultFound]="noResultFound"></app-no-result-found>
+                <div class="gp-tile" *ngIf="user !== -1" (click)="addUserToList(user)">
+                  <div class="gp-icons" [ngClass]="user.selected?'selected-user':''">
+                    <a href="javascript:void(0);" class="gp-user"><span class="icon-group"></span>
+      <div class="selected-icon"><span class="icon-check"></span></div>
+    </a>
+                  </div>
+
+                  <div class="gp-detail">
+                    <h5>{{user.lastName}}</h5>
+                    <p> {{user.firstName}}</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <div class="selectUserListBtn">
+            <button type="button" (click)="clearUsers()" class="btn btn-primary pull-right blue-btn marginL10">Done</button>
+            </div>
+          </div>
+          <!-- End of Group Tiles -->
+        </div>
+        
+        </div>
+        <!-- End of User Dropdown List Section -->
+
+        <!-- Selected Users -->
+        <!--div class="confirmSelectedUser" *ngIf="selectedUsers && selectedUsers.length>=1">Are you sure you want to grant access to the following users.</div-->
+        <!-- End of Selected Users -->
+
+        <!-- Selected Groups -->
+        <div class="selectedGroups" *ngIf="userModal && userModal.groups">
+          <h6 class="darkTxt">Group {{userModal.groups.length>1?'Names':'Name'}}</h6>
+          <ul>
+            <li *ngFor="let group of  userModal.groups; let last = last">{{group}}{{last?'':','}}</li>
+          </ul>
+        </div>
+        <!-- End of Selected Groups -->
+
+        <div class="datepanel">
+          <span class="pull-left darkTxt">Specify Access Dates</span>
+        </div>
+
+        <!-- Date Range -->
+        <div class="row dateRange-row">
+          <div class="col-xs-6 col-lg-6 startDate">
+            <span class="form-group dateRange-col date-selected">
+						<app-ng2-datepicker name="startDate" [options]="startDateOptions" [formControl]="form.controls['startDate']"></app-ng2-datepicker>
+					</span>
+          </div>
+          <div class="col-xs-6 col-lg-6 endDate">
+            <span class="form-group dateRange-col">
+					<app-ng2-datepicker  name="endDate"  [options]="endDateOptions" [formControl]="form.controls['endDate']"></app-ng2-datepicker>
+					</span>
+          </div>
+        </div>
+        <!-- End of Date Range -->
+        <div class="datepanel" *ngIf="errorMessage">
+          <span class="pull-left darkTxt" *ngFor="let message of errorMessage"  style = "color: red;">{{message}}</span>
+        </div>
+      </div>
+
+    </form>
+  </modal-body>
+  <modal-footer>
+    <button type="button" class="btn btn-default white-btn"  (click)="modal.dismiss()">Cancel</button>
+    <button type="button" [disabled]="!form.valid || selectedUsers.length<=0" (click)="onCloseForm(true,form.value)" class="btn btn-primary blue-btn marginL10">Add User</button>
+  </modal-footer>
+</modal>
+
+<app-confirm-modal (onUpdate) = "confirmUserModal($event)" [confirmModal]= "confirmModal" *ngIf="confirmUser"></app-confirm-modal>

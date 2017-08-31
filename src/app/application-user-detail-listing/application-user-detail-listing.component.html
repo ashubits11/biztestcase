@@ -1,0 +1,15 @@
+<app-application-group-information [permission]="permission" [applicationName]= "applicationName" [applicationGroupName]= "applicationGroupName" [policyGroupName] = "policyGroupName" ></app-application-group-information>
+<div class="detail-container" >
+  <div class="container-fluid" >
+    <div class="app-row appHeader marginB25">
+      <div class="col-sm-3 col-md-4 paddingL0 xs-padding0 xs-marginTB0">
+        <ul class="search-list headerTabUl">
+          <li [routerLink]="['users']" routerLinkActive="active" ><a href="javascript:void(0);" >Users</a></li>
+          <li [routerLink]="['activites']" routerLinkActive="active" ><a href="javascript:void(0);" >Activities</a></li>
+        </ul>
+        <!-- <button type="button" class="btn btn-primary blue-btn disabled marginL10 mobileDeleteBtn lg-hide" disabled="disabled"><span class="icon-delete"></span></button> -->
+      </div>
+    </div>
+    <router-outlet></router-outlet>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+<!-- Single Application List Item -->
+<div class="app-col" >
+  <div class="row">
+    <div class="col-sm-4 appThumb"><a (click)="goToDetail()" class="app-name {{tileColorClass}}" [style.height.px]="showMore?(disableTool.height+37):118"><p>{{application.display}}</p><h1 class="bg-txt u-txt">{{this.firtCharacter}}</h1></a></div>
+    <div class="col-sm-8 appContent"><div class="app-info">
+       <tooltip-content #myTooltip>
+           <app-tooltip-description [value]="application.description"></app-tooltip-description>
+      </tooltip-content>
+      <div class="appDescDiv" [ngClass]="{'mobileViewDesc':!showMore}" appShowTooltip (willShowToolTip)="disableTool = $event" [style.height.px]="showMore?(disableTool.height+15):73" >
+        <p >{{application.description}}<a  *ngIf="showMore" (click)= "showMore = !showMore" >See Less</a></p>
+        <a class="seeMore" *ngIf="!disableTool.status && !showMore" (click)= "showMore = !showMore" > ... See More</a>
+      </div>
+      <div class="app-btn pull-right">{{application.isActive? 'Enabled':'Disabled'}}</div>
+    </div></div>
+  </div>
+</div>
+<!-- End of Single Application List Item -->
+
+
+

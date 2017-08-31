@@ -1,0 +1,10 @@
+{
+      "context":{
+        "allFacility":"ATWS",
+        "allClient":"Client1",
+        "allParties":"Party1"
+      },
+      "userGroup": "Accounting",
+      "description":"Dolor sit amet, consectetur adipiscing elit, sed doenim ad minim eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minimenimeniam, enim eniam, enim ad minim quis.",
+      "policyGroupName": "default"
+    }

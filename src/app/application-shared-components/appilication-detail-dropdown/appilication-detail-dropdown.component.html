@@ -1,0 +1,15 @@
+<ul *ngIf="contextTypes" class="user-dropdown groupSubheadRow">
+        <li *ngFor="let context of contextTypes; let contextIndex = index;">
+          <div class="drop-value action-drop marginT0">
+            <a href="javascript:void(0);" class="dropdown-toggle" id="facilityDropdown"
+            data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            {{selectedValue[context]}}<span class="icon-triangle"></span></a>
+            <ul class="dropdown-menu facilityDropdown" aria-labelledby="dropProfile">
+              <li [ngClass]="[selectedValue[context] === item?'active':'']" *ngFor="let item of contexts|contextFilter:selectedValue:contextTypes:contextIndex|commonSortPipe:context; let index = index" (click)="changeSelected(item,context,index)">
+              <a href="javascript:void(0);">{{item}}
+              <span *ngIf="selectedValue[context] === item"
+              class="icon-check"></span></a></li>
+            </ul>
+          </div>
+        </li>
+</ul>

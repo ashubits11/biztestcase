@@ -1,0 +1,10 @@
+
+{
+    "/api": {
+        "target": "http://samd.ttx.com/admin/api",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": "true",
+        "pathRewrite": {"^/api" : ""}        
+    }
+}

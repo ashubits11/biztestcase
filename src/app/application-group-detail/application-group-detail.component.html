@@ -1,0 +1,32 @@
+<ng-container *ngIf="activitesFound && permission && permission.viewApp">
+  <app-notification-center></app-notification-center>
+<app-load-more *ngIf="loadMoreOptions" [loadMoreOptions]="loadMoreOptions" (updateRowsSize)="updateRowsSize($event)"></app-load-more> 
+<app-application-information [permission]="permission" [applicationName]="applicationName" [applicationDetailSubject]="applicationDetailSubject"></app-application-information>
+<div class="detail-container">
+  <div class="container-fluid">
+    <div class="app-row appHeader marginB5">
+      <div class="col-sm-12 col-md-12 paddingR0 padding-xs-L0 xs-marginB15">
+        <div class="pull-right xs-full">
+          <app-application-search *ngIf="groups && groups.length >=1" [options]="searchOptions" (onSearchUpdate)="onSearchUpdate($event)"></app-application-search>
+          <div  class="pull-right">
+            <button type="button" *ngIf="permission.addUser" class="btn btn-primary blue-btn marginL10 xs-posBottomFixed" (click)="openUserModal()" [disabled]="selectedGroups.length<=0"> <span class="icon-add-user"></span><span>Add User</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gp-wrap">
+       <app-appilication-detail-dropdown  [contextSubject]="contextSubject" (dropdownUpdate)="dropdownUpdate($event)"></app-appilication-detail-dropdown> 
+      <div class="row gp-row">
+        <ng-container *ngFor="let group of groups|applicationsFilter:searchText:'userGroup'|applicationGroupContext:selectedContext|slice:0:size; let index = index;">
+          <app-no-result-found *ngIf="group === -1" [noResultFound]="noResultFound"></app-no-result-found>
+          <div *ngIf="group !== -1">
+            <app-application-group-detail-container [activitesFound]="activitesFound" [groupSubject]="groupSubject" [searchText]="searchText" [group]="group" (onGroupSelect)="onGroupSelect($event)"></app-application-group-detail-container>
+          </div>
+        </ng-container>
+      </div>
+      <app-no-result-found *ngIf="groups && groups.length <=1" [noResultFound]="{label:'No Groups Found',subLabel:''}"></app-no-result-found>
+    </div>
+  </div>
+</div>
+<app-add-user-modal [userModal]="userModal" (onUpdate) = "userModalUpdate($event)" *ngIf="addUser" ></app-add-user-modal>
+</ng-container>

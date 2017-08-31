@@ -1,0 +1,48 @@
+/* header css start  */
+nav.navbar { height: 62px; }
+.navbar-inverse { background-color: #fff; margin-bottom:0px; border-color: #fff;}
+ul.nav.nav-header { padding: 0; margin:4px 0 0 50px; }
+ul.nav.nav-header li > a { padding: 16px 15px 17px 15px; margin:0 5px; border-bottom:4px solid transparent; color: #5d7f91; font-size:14px; display: inline-block; position: relative;}
+ul.nav.nav-header li > a:focus, ul.nav.nav-header li > a:hover, ul.nav.nav-header li.active a, 
+ul.nav.nav-header li.active a:hover, ul.nav.nav-header li.active a:focus { color: #5d7f91; font-weight:300; border-bottom:4px solid #666;  background: none; background-color:#fff; }
+ul.nav.nav-header li > a:focus, ul.nav.nav-header li.active a, ul.nav.nav-header li.active a:hover, ul.nav.nav-header li.active a:focus { color: #333; }
+ul.nav.nav-header li a:after { display:block; content:attr(title); font-weight:bold; height:1px; color:transparent; overflow:hidden; visibility:hidden; }
+
+.admin-pic { display: inline-block; vertical-align: middle; height: 36px; width: 36px; margin-right:18px; border-radius: 20px; overflow:hidden;}
+.drop-value span.caret { margin:0 10px 0 5px; border-top: 5px dashed; border-top: 5px solid\9; border-right: 5px solid transparent; border-left: 5px solid transparent;}
+.drop-value span.icon-triangle { font-size: 5px; margin:0 6px 0 5px;}
+span.icon-logo-sm { font-size: 30px;}
+span.logo-txt {color: #58585b; font-size:12px;  display: inline-block; vertical-align: middle;  margin: 12px 0 0 10px; float: right;}
+span.icon-help { font-size: 12px; font-weight: bold; vertical-align: middle; display: inline-block;}
+form.navbar-form.navbar-right {margin-bottom: 0; margin-top: 12px;}
+.navbar-fixed-top { border-width: 0 0 0px;}
+
+nav.topHeaderNav.navbar .navbar-brand { padding:0; margin:0; height: auto; }
+.topHeaderNav .navbar-header { padding:17px 0 13px 0;  }
+.topHeaderNav .drop-value { position: relative; top: 5px; }
+.topHeaderNav .drop-value > span { float: left; line-height: 13px; letter-spacing: 0; }
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover { background-color: #fff;}
+
+.topHeaderNav.affix { box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3); }
+
+.dropdown-menu.profileDropdown { padding: 10px 0; top: 39px; }
+.profileDropdown .icon-user { font-size: 12px; position: relative; top: -1px; }
+/* header css ends  */
+
+
+
+
+/*nav a {
+  color: #8f8f8f;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 48px;
+  margin-right: 20px;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+nav a.router-link-active {
+  color: #106cc8;
+}*/

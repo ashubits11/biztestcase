@@ -1,0 +1,20 @@
+<app-notification-center></app-notification-center>
+<app-load-more *ngIf="loadMoreOptions" [loadMoreOptions]="loadMoreOptions" (updateRowsSize)="updateRowsSize($event)"></app-load-more>
+<div class="col-sm-9 col-md-8 col-xs-12 paddingR0 xs-padding0 posRelative  pull-right">
+  <div class="pull-right col-xs-12 text-right xs-width100">
+    <app-application-search  *ngIf="activitys && activitys.length>=1" [options]="searchOptions" (onSearchUpdate)="onSearchUpdate($event)"></app-application-search>
+  </div>
+</div>
+<div class="activity-wrap">
+  <div class="row activity-row">
+    <ng-container *ngFor="let activity of activitys|applicationsFilter:searchText|slice:0:size;">
+      <app-no-result-found *ngIf="activity === -1" [noResultFound]="noResultFound"></app-no-result-found>
+      <div *ngIf="activity !== -1">
+        <div class="col-sm-4 activity-tile">
+          <h3>{{activity}}</h3>
+        </div>
+      </div>
+    </ng-container>
+    <app-no-result-found *ngIf="activitys && activitys.length<=0"  [noResultFound]="{label:'No Activities',subLabel:''}"></app-no-result-found>
+  </div>
+</div>

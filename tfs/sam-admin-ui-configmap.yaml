@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: sam-admin-ui-configmap-%BUILD_BUILDNUMBER%
+data:
+  config.json: |
+    {
+      "SAM_ADMIN_API_AZURE_CLIENTID": "%SAM_ADMIN_API_AZURE_CLIENTID%",
+      "SAM_ADMIN_UI_AZURE_CLIENTID": "%SAM_ADMIN_UI_AZURE_CLIENTID%",
+      "SAM_ENGINE_AZURE_CLIENTID": "%SAM_ENGINE_AZURE_CLIENTID%",
+      "SAM_ADMIN_API_ENDPOINT": "%SAM_ADMIN_API_ENDPOINT%",
+      "SAM_ENGINE_ENDPOINT": "%SAM_ENGINE_ENDPOINT%",
+      "BASE_HREF": "%BASE_HREF%"
+    }

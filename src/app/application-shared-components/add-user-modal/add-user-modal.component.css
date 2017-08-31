@@ -1,0 +1,100 @@
+/* Popup Css start 
+====================================== */
+.borderRad0 { border-radius:0; }
+.width371, .userModal .modal-dialog { width:371px; }
+.scrollHeight155 { height:180px; overflow-y:auto; margin-top:0; margin-bottom:0; padding-bottom: 10px; width:100%; }
+.borderNone { border:0; box-shadow:none; }
+.modal { font-size: 13px; }
+.modal .dateRange-col .form-control, .modal .dateRange-col .input-group-btn .btn { border:0 none; box-shadow:none; }
+.darkTxt { font-size:12px; font-weight:600; color:#333; font-family:"arial"; }
+.width371 .modal-title, .userModal .modal-dialog .modal-title { line-height:normal; }
+.width371 button.close, .userModal .modal-dialog button.close { margin-top:3px; font-size:15px; color:#5c7f92; opacity:1; }
+.width371 button.close:hover, .userModal .modal-dialog button.close:hover { color:#333; }
+.confirmSelectedUser { width:100%; font-size:14px; color:#333; line-height:21px; margin-top:0px; float:left;}
+.selectedUsersWrap { background-color:#eff2f4; box-sizing:border-box; margin:10px 0; padding:10px; width:100%; float:left; }
+.selectedUsersWrap h6 { font-size:12px; font-weight:bold; margin:0 0 8px 0; color:#333; }
+.modal .selectedUsersNames ul { margin:0; }
+.modal .selectedUsersNames ul li { background-color:#5c7f92; border:0 !important; text-transform:capitalize; border-radius:50px; color:#fff; display:inline-block !important; margin:0 4px 4px 0; line-height:normal; padding:5px 10px !important; }
+.modal .selectedUsersNames ul li a { color:#fff; font-size:9px; margin-left:2px; }
+
+.modal .selectedGroups { width:100%; padding-bottom:10px; border-bottom:1px solid #E1E3E4; margin-bottom:5px; float:left; }
+.modal .selectedGroups h6 { margin-top:0; }
+.modal .selectedGroups ul { margin:0; height:40px; overflow-y:auto; }
+.modal .selectedGroups ul li { color:#333; border:0 !important; display:inline-block !important; line-height:normal; padding:2px 1px !important; }
+.modal .selectedGroups ul li a { color:#333; }
+.modal .selectedGroups ul li a:hover { color:#5c7f92; }
+
+/* Group detail column start 
+====================================== */
+.modal .gp-tile{ padding:8px 0 0 15px; width:100%; }
+.modal .gp-tile:hover { background:rgba(204, 204, 204, 0.2); }
+.modal a.gp-user { background:#eff2f4 none repeat scroll 0 0; border-radius:26px; display:block; height:30px; width:30px; margin:0; padding:6px 0; position:relative; text-align:center; vertical-align:middle; }
+.modal span.icon-group { color:#999; font-size:12px; }
+.modal .gp-icons { display:inline-block;  padding:0 16px 0 0; vertical-align:top; }
+.modal .selected-icon { background:rgba(66, 133, 244, 0.6); position:absolute; height:100%; width:100%; top:0; left:0; border-radius:100%; padding:33% 0 0; display:none; }
+
+/* Selected user state */
+.selected-user .selected-icon { display:block; }
+span.icon-check { color:#fff; font-size:12px; }
+/* Selected user state end*/
+
+a.total-user { background:#999999; color:#fff; font-size:16px; font-style:normal; text-align:center; padding:4px 0 0; }
+.modal .gp-detail { display:inline-block; width:80%; border-bottom:1px solid #eeeeee; padding:0 0 10px; }
+.modal .gp-detail h5 { color:#5c7f92; margin:6px 0 4px; font-size:14px; font-weight:bold; width: auto; }
+.modal .width371 .gp-detail p, .userModal .modal-dialog .gp-detail p { margin:0 0 3px; font-size:12px; color:#333; }
+.modal .gp-detail > ul { padding-left:0; margin-bottom:0; }
+.modal .gp-detail li { display:table-cell; font-size:12px; vertical-align:middle; color:#999999; padding:0; }
+.modal .gp-detail li:first-child { width:178px; }
+.modal .gp-detail li:last-child { padding:0; }
+.modal .gp-detail .gp-date li.moreDots { bottom:10px; padding:0; position:absolute; right:15px; font-size:18px; }
+/* Group detail column end 
+====================================== */
+
+/* Application detail column start 
+====================================== */
+.modal .gp-icons.app-icon a.gp-user { padding:11px 0 0 0; }
+.modal .gp-detail .gp-date li { padding:0; }
+.modal .gp-detail .gp-date li:last-child { padding:0; }
+.modal span.icon-user {color:#999999; font-size:14px; }
+/* Application detail column end 
+====================================== */
+
+.modal .gp-detail h5 span.icon-check { color:#6CC16F; font-size:9px; position:relative; top:-1px; font-weight:600; margin-left:5px; }
+
+/* ------------  App Listing ---------------*/
+.modal-header {	padding:18px 20px 15px 20px; margin-bottom:10px;}
+.modal .autoSearch-input { width:100%; /*border-bottom:1px solid #5C7F92;*/ padding-bottom:0px; float:left; }
+.modal .user-autoSearch ul { list-style:none;}
+.modal .user-autoSearch ul li { border-bottom:1px solid #d1d3d5;padding:5px 0; }
+.modal .user-autoSearch .gp-tile { padding:0; margin-bottom:0; }
+.modal .user-autoSearch .gp-tile:hover { background:none;}
+.modal .user-autoSearch .gp-detail {border-bottom:none; padding:8px 0 2px 0; vertical-align:middle;}
+.modal .width371 .user-autoSearch .gp-detail h5, .userModal .modal-dialog .user-autoSearch .gp-detail h5 { color:#999999; margin:0px 0 4px !important; font-weight:normal;}
+.modal .user-autoSearch .gp-detail p { padding:0 3px; color:#58585B;}
+.modal .datepanel {display:inline-block; clear:both; width:100%; padding:5px 0 5px;}
+.modal .datepanel > span {float:left!important; color:#333; font-size:12px; font-weight:bold;}
+.modal .checkbox { margin:0;}
+.modal .dateRange-col {display:block; padding:0 0 2px; border-bottom:1px solid #eee;}
+.modal .dateRange-col input { border:none; display:inline; vertical-align:middle; width:81%;}
+.modal .dateRange-col .calender-btn {padding:0;  float:right;  background:none; border:none; box-shadow:none;}
+.modal .dateRange-col .calender-btn:hover, .modal .dateRange-col .calender-btn:active, .modal .dateRange-col .calender-btn:focus { background-color:transparent !important; }
+.modal .dateRange-row p { margin:0 0 7px;	font-size:12px;	color:#666666;}
+.modal-footer {border-top:none; }
+.modal .dateRange-col .calender-btn .calendar {width:18px; height:18px; background: no-repeat; display:inline-block; vertical-align:middle; }
+.modal .dateRange-col .calender-btn .icon-calendar { font-size:18px;  }
+.modal .dateRange-col.date-selected {border-bottom:1px solid #5C7F92;}
+.modal .dateRange-col.date-selected input::placeholder {color:#5C7F92;}
+.modal span.icon-calendar {color:#5C7F92; font-size:17px; }
+
+.endDate .datepicker-calendar { left: auto !important; right: -15px !important; }
+
+.modal .form-group { margin-bottom: 0; }
+
+.searchBlockWrap { position:relative; margin-bottom:10px; float:left; width:100% !important; }
+.absoluteScrollDiv { background-color:#fff; min-height:188px; position:absolute; width:100%; z-index:9; margin-top: 30px; }
+/* Popup Css end 
+====================================== */
+
+@media (max-width:767px) {
+.scrollHeight155 { height: 180px; margin-bottom: 5px; }
+}

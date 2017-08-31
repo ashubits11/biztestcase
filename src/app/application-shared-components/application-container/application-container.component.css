@@ -1,0 +1,53 @@
+/* App page Start
+================================================================== */
+.app-container {  }
+.app-container .container { width: 998px; }
+
+.app-name {background:#A8A277; position:relative; min-height:118px; height: 100%; margin:0; padding:0px; color: #fff; font-size:18px; overflow: hidden; z-index: 1; display: block; cursor: pointer; }
+.app-name > p { left: 15px; margin: 0; position: absolute; top: 15px; font-family: arial; font-size: 20px; color: #fff; font-style: normal; text-align: left; line-height: 23px; letter-spacing: 0.03em; padding-right: 15px; }
+.app-name h1.bg-txt {font-family: 'arial'; color: #fff;  font-size:334px; position:absolute; right:-35px; top:-47px; font-weight: bold; margin:0; line-height:187px; z-index:-1; opacity: 0.2;}
+.app-name h1.bg-txt.c-txt {top: 1px; right: -2px; font-size:284.39px;}
+
+.app-info { padding:17px 30px 0 0; height: 100%; }
+.app-info p { font-family: arial; font-size: 13px; color: #333333; font-style: normal; font-weight: normal; word-wrap: break-word; word-break: break-all; }
+.app-info p a { color: #5c7f92; cursor: pointer; }
+.app-info p a:hover { text-decoration: underline; }
+.app-col { min-height: 118px; width: 100%; float: left; background: #fff; display:block; -webkit-transition: all 0.5s linear; -moz-transition: all 0.5s linear; -o-transition: all 0.5s linear; transition: all 0.5s linear; -ms-transition: all 0.5s linear;  margin-bottom: 8px;  box-shadow:3px 2px 8px 0px #d5d5d5; overflow: hidden; }
+.app-col .row { height: 100%; }
+.app-col:hover { box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.25);}
+.appThumb { width: 25.6%; }
+.appContent { width: 74.25%; height: 100%; position: relative; }
+.appContent .app-info .appDescDiv { width: 90%; min-height: 15px;  position: relative; display: inline-block; }
+.appContent .app-info .appDescDiv p { display: table-cell; vertical-align: top; }
+/*.appContent .app-info a { display: inline-block; margin-bottom: 4px; vertical-align: bottom; width: 62px; }*/
+.appContent .app-info a { position: absolute; right: 0; bottom:0px; padding: 1px 5px; margin-bottom:0px; vertical-align: bottom; width: 98px; background-color: #fff; cursor: pointer; }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+.appContent .app-info a { bottom:-4px !important; }
+}
+
+.appContent .app-info .appDescDiv p > a { position: relative; top: 0; }
+
+.app-info .app-btn { top:15px; bottom: auto; right: 35px; color: #000; }
+.app-btn {margin: 0px; font-size: 14px; position: absolute; }
+.app-btn.disable-btn { color: #999;}
+/* App page End
+================================================================== */
+
+
+/* Application Colours Start
+ ================================================================== */
+.brownApp {background:#A8A277; }
+.greyApp {background:#C0C1BF;}
+.watergreenApp {background:#6b8c7f;}
+.yellowApp {background:#DBB71D;}
+.navyBlueApp {background:#5c7e8f;}
+.darkGreenApp {background:#666f39;}
+.darkBrownApp { background:#7d6f5e; }
+/* Application Colours End
+================================================================== */
+
+
+@media (max-width:767px){
+.app-col { min-height:80px !important; }
+.appThumb .app-name { min-height:80px !important; }
+}

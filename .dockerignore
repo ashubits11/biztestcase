@@ -1,0 +1,10 @@
+node_modules
+Dockerfile
+loadtest
+output
+spec
+tfs
+.*
+git
+upgrade.sh
+config.json

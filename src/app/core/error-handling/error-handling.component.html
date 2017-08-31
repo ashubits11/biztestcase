@@ -1,0 +1,14 @@
+ <modal class="userModal minHeightAuto confirmationPopup permissionError" #errorModal (onDismiss)="dismissModal(false)" >
+    <modal-header>
+        <button type="button" class="close" (click)="errorModal.dismiss()"><span aria-hidden="true" class="icon-cross"></span></button>
+        <h4 *ngIf="message" class="modal-title">{{message.heading}}</h4>
+    </modal-header>
+    <modal-body>
+        <span *ngIf="message && message.permission" class="errorHandlingIcon"></span>
+        <span *ngIf="message && !message.permission" class="noResultIcon"></span>
+    <p *ngIf="message">{{message.message}}</p>
+    </modal-body>
+    <modal-footer>
+        <button type="button" class="btn btn-primary blue-btn marginL10" (click)="errorModal.dismiss()">OK</button>
+    </modal-footer>
+</modal> 

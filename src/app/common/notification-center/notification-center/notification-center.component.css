@@ -1,0 +1,41 @@
+/*.notification-center-alerts {
+    position: fixed;
+    z-index: 1031;
+    padding: 0;
+    width: 300px;
+    margin-left: -150px;
+    left: 50%;
+    top: 10px;
+}*/
+
+
+.userAdded {
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    margin:0 auto;
+    width: 278px;
+    padding: 15px;
+    z-index:9999;
+    background-color: rgba(74,164,76,0.9);
+}
+
+.userAdded p {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+
+.userAdded a {
+    color: #fff;
+    float: right;
+    position: relative;
+    top: 2px;
+    line-height: normal;
+}
+
+p{
+    margin: 0 0 0 10 px;
+}

@@ -1,0 +1,24 @@
+<!-- Application Detail Tile -->
+<ng-container *ngIf="permission">
+<div class="col-sm-6 col-md-4 col-lg-3 gp-tile" [ngClass]="{'nonSelectableUsrGrp':!permission.viewUser}">
+  <div class="gp-icons" [ngClass]="[group.selected?'selected-user':'', !permission.addUser?'disable':'']" (click)="onSelected()"> 
+    <a href="javascript:void(0);" class="gp-user"><span class="icon-group"></span>
+      <div class="selected-icon"><span class="icon-check"></span></div>
+    </a>
+  </div>
+  <div class="gp-detail">
+    <h5 (click)="goToUserDetail()" [ngClass]="!permission.viewUser?'disable':''">{{group.userGroup}}
+      <span *ngIf="userAdded" class="icon-check"></span> 
+      </h5>
+    <tooltip-content #myTooltip>
+           <app-tooltip-description [value]="group.description"></app-tooltip-description>
+      </tooltip-content> 
+      <p appShowTooltip [tooltip]="myTooltip"  [tooltipDisabled]="disableTool" [tooltipAnimation]="true" tooltipPlacement="top" (willShowToolTip)="disableTool = $event">{{group.description}}
+      </p>
+    <ul>
+      <li *ngFor="let key of group|applicationGroupContextKey">{{key}}</li>
+    </ul>
+  </div>
+</div>
+</ng-container>
+<!-- End of Application Detail Tile -->

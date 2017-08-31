@@ -1,0 +1,36 @@
+/* Header Banner Start
+====================================== */
+.detail-head { float: left; width: 100%; }
+.detail-bg { position: relative; z-index: 1; overflow: hidden; padding:20px 40px 20px 15px; min-height: 100px;}
+/*.detail-bg h1.bg-txt {font-family: 'arial'; font-weight: bold; color: #e2c54a; font-size:270.75px; position: absolute; right: -35px; top:-21px; font-weight: bold; margin: 0; line-height: 155px; z-index: -1;}*/
+.detail-bg h1.bg-txt {font-family: 'arial'; font-weight: bold; color: #ffffff; opacity: .2; font-size:270.75px; position: absolute; right: auto; left:0; top:-21px; font-weight: bold; margin: 0; line-height: 155px; z-index: -1;}
+.detail-bg h3 { margin: 0px 0 5px; color: #fff; font-size: 22px; font-weight: normal; line-height: 18px;}
+.detail-bg h3 span{font-size:13px; }
+.detail-bg h3 span.appName { font-size: 22px; }
+.detail-bg p {color: #333; font-size:13px; font-family: 'arial'; margin: 0; padding-right: 30px;}
+.detail-bg p a { font-size: 13px; margin-left:5px; cursor:pointer; }
+.detail-bg a:hover { color: #23527c !important; text-decoration: none; }
+.detail-bg a:hover .icon-edit::before { color: #23527c }
+.backIcon { display: table-cell; width: 46px; vertical-align: top; padding-right: 25px; }
+.detail-bg span.icon-back-arrow {color: #fff; font-size: 18.5px; margin:0px; float: left; cursor: pointer; }
+.headerRightContent  { display: table-cell; vertical-align: top; width: 100%; }
+.headerRightContent > span { float: left; margin-right: 10px; }
+/* Header Banner End
+====================================== */
+
+@media (max-width:767px) {
+.detail-bg { min-height:86px; }
+.expandCollapseBtn { right:15px; bottom:12px; padding:0 5px; }
+}
+
+/* Application Colours Start
+ ================================================================== */
+.brownApp {background:#A8A277; }
+.greyApp {background:#C0C1BF;}
+.watergreenApp {background:#6b8c7f;}
+.yellowApp {background:#DBB71D;}
+.navyBlueApp {background:#5c7e8f;}
+.darkGreenApp {background:#666f39;}
+.darkBrownApp { background:#7d6f5e; }
+/* Application Colours End
+================================================================== */

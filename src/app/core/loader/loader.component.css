@@ -1,0 +1,15 @@
+.loader-hidden {
+    visibility: hidden;
+}
+
+.loader-overlay {
+    position: absolute;
+    width:100%;
+    top:0;
+    left: 0;
+    opacity: 1;
+    z-index: 500000;
+    right: 0;
+}
+
+.loader { text-align: center; margin: 0 auto; left: 0 !important; }
